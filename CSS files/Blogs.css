@@ -1,0 +1,124 @@
+body {
+margin: 0;
+padding: 0;
+background-color: #fff;
+font-family:"platypi",sans-serif;
+}
+.blog-header {
+background: url('https://via.placeholder.com/1600x300') no-repeat center center;
+background-size: cover;
+padding: 60px;
+color: white;
+text-align: center;
+font-size: 48px;
+font-weight: bold;
+}
+.container {
+display: flex;
+max-width: 1200px;
+margin: auto;
+padding: 20px;
+}
+ .main {
+flex: 2;
+margin-right: 30px;
+}
+
+.sidebar {
+flex: 1;
+}
+.post {
+    margin-bottom: 40px;
+}
+.post h2 {
+    margin-bottom: 10px;
+}
+.post-meta {
+    color: #888;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.post img {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+.read-more {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(0, 119, 97);
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;
+    border-radius: 30px;
+}
+.read-more2{
+    text-decoration: none;
+    color: black;
+    padding: 5px 10px;
+}
+a.read-more:hover{
+    color:rgb(0, 119, 97);
+    background-color: #fff;
+    border: 1px solid black;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.603);
+}
+a.read-more2:hover{
+    color:rgb(0, 119, 97);
+    background-color: #fff;
+    border: 1px solid black; 
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.603);   
+}
+.widget {
+    margin-bottom: 30px;
+}
+
+.widget h3 {
+    border-bottom: 2px solid rgb(0, 119, 97);
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.categories ul,
+.tags ul,
+.latest-posts ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.categories li,
+.tags li,
+.latest-posts li {
+    margin: 5px 0;
+}
+
+.tag {
+    display: inline-block;
+    background: #ffe6e0;
+    margin: 5px;
+    border-radius: 20px;
+}
+
+.search-bar input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    margin-right: -4px;
+}
+.blogs-backgroundimg{
+    background-image: url("navbarbackground.png");
+    background-repeat: repeat-x ;
+    background-size: 169%;
+}
+.blogs{
+    display:flex;   
+    justify-content: center;
+    margin-top: 10px;
+    color: white;
+    font-family: "platypi",sans-serif;
+    font-size: xx-large;
+}
+.blogsnav{
+    background-color:rgba(255, 255, 255, 0);
+}
