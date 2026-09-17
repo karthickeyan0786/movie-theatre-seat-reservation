@@ -1,0 +1,89 @@
+.signup-backgroundimg{
+    background-image: url("navbarbackground.png");
+    background-repeat: repeat-x ;
+    background-size: 169%;
+}
+.signup{
+    display:flex;   
+    justify-content: center;
+    margin-top: 10px;
+    color: white;
+    font-family: "platypi",sans-serif;
+    font-size: xx-large;
+}
+.navsignup{
+    background-color:rgba(255, 255, 255, 0);
+}
+body {
+    font-family:"platypi",sans-serif;
+    background-color: #ffffff;
+}
+
+.signup-container {
+  background-color: #f9fafb;
+  padding: 40px;
+  border-radius: 10px;
+  width: 350px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  margin-left: 540px;
+  margin-top: 100px;
+}
+.signup-form h2 {
+  margin-bottom: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #222;
+}
+
+.signup-form input[type="text"],
+.signup-form input[type="email"],
+.signup-form input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid rgb(0, 119, 97);
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.checkbox-container input {
+  margin-right: 10px;
+}
+
+.signup-form button {
+  width: 100%;
+  background-color: rgb(0, 119, 97);
+  color: white;
+  border: none;
+  padding: 14px 0;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 30px;   
+}
+
+.signup-form button:hover {    
+    background-color: #fff;
+    color: black;  
+    border: 1px solid black;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.603);
+}
+
+.login-link {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.login-link a {
+  color: rgb(0, 119, 97);
+  text-decoration: none;
+  font-weight: bold;
+}
